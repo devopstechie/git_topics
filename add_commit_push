@@ -1,0 +1,15 @@
+1. create a file 
+vim firstfile
+2. git status check --> untracked files
+git status
+3. adding thatuntracked files to git
+git add <filename>
+4. git status
+that will give you the aded file in green
+5. commiting to staging repo
+git commit -m "any mesage "
+6. again check the status then you can see 1 commit 
+git status
+7. pushing that into central repo 
+git -u push origin master
+8. check that pushed files are there in central repo
